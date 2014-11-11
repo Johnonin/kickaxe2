@@ -7,13 +7,13 @@ using System.IO;
 //using System.Drawing;
 using System.Data;
 
-//4swag
+
 namespace Adventure
 {
     class MainClass
     {
         const int SWP_NOSIZE = 0x0001;
-
+        
 
 
         [DllImport("kernel32.dll", ExactSpelling = true)]
